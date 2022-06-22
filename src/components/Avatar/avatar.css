@@ -1,0 +1,50 @@
+.containerBox {
+    position: relative;
+    display: inline-block;
+}
+.text-box {
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+}
+.text-box:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+h4 {
+   display: inline-block;
+   font-size: 20px; /*or whatever you want*/
+   color: #FFF;   
+}
+
+.storybook-avatar-round{
+    border-radius: 50%;
+}
+
+.storybook-avatar-square{
+    height: 50px;
+    width: 50px;
+}
+
+.large{
+    height: 50px;
+    width: 50px;
+}
+
+.medium{
+    height: 36px;
+    width: 36px;
+}
+
+.small{
+    height: 28px;
+    width: 28px;
+}
+
+.hide {
+    opacity: 0.3;
+}
+
